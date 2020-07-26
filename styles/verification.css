@@ -1,0 +1,73 @@
+body{
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace; 
+}
+.container {
+    width:60%;
+   
+    margin:  50px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(100,100,100,0.5);
+    padding: 40px;
+}
+.first-container h1 {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 50px;
+	color: rgba(10,140,85,1);
+}
+
+form {
+    text-align: center;
+}
+form p {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    color: #7abb96;
+
+}
+
+#code-input {
+    display: block;
+    margin: 20px auto;
+    font-family: inherit;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding:10px 15px;
+    color: #0a8c55;
+    border : none;
+    box-shadow: 0 0 7px 1px rgba(122,187,150,0.4);
+    outline: none;
+    width: 100px;
+    text-align: center;
+}
+
+#code-input:focus {
+    box-shadow: 0 0 6px 2px rgba(122,187,150,0.6);
+}
+
+
+
+.cta-btn {
+    width: 100%;
+}
+
+#submit-btn {
+    display: block;
+    margin: 30px auto 0 auto;
+    min-width: 30%;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-family: inherit;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgba(10,140,85,1);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.mini_p{
+    font-size: 0.8rem;
+}

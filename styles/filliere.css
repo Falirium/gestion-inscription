@@ -1,0 +1,114 @@
+body{
+     box-sizing: border-box;
+     font-size: 16px;
+     font-family: 'Roboto Mono', monospace; 
+ }
+ .container {
+     width:50%;
+     margin:50px auto;
+     border-radius: 8px;
+     box-shadow: 0 0 12px rgba(100,100,100,0.5);
+     padding: 60px;
+ }
+ 
+ .first-container h1 {
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 30px;
+      color: rgba(10,140,85,1);
+      font-weight: 700;
+ }
+ form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+ }
+ .form-container {
+     margin: 30px  auto; 
+     display: grid;
+     width: 100%;
+     grid-template-columns:repeat(auto-fit,minmax(25%,1fr));
+     
+     grid-gap: 50px;
+ }
+ .cycle {
+      border-radius: 5px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 0 6px 1px rgba(100,100,100,0.3); 
+      transition: all 0.2s ease-out;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+ }
+ a {
+      text-decoration: none;
+ }
+ .cycle:hover {
+      transform: scale(1.1,1.1);
+      background-color: rgba(10,140,85,0.2);
+ }
+ .cycle:focus {
+     transform: scale(1.1,1.1);
+     background-color: rgba(10,140,85,0.3);
+}
+
+
+ .cycle img {
+      width: 40px;
+ }
+ #servers {
+     width: 70px;
+ }
+ #searcher {
+     width: 75px;
+ }
+ #analytics {
+     width: 70px;
+ }
+ 
+ .title {
+     display: block; 
+     margin-top: 30px ;
+     font-size: 1rem;
+     font-weight: 700;
+     color: rgba(10,140,85,1);
+ }
+ #submit-btn {
+      padding: 10px 25px;
+      outline: none;
+      border: none;
+      font-size: 1rem;
+      font-family: inherit;
+      color: white;
+      background-color: rgba(10,140,85,1);
+      border-radius: 25px;
+      cursor: pointer;
+      margin-top: 20px;  
+ }
+
+/* **************************** PART 2 **************************** */
+#data {
+     width: 90px;
+ }
+ #directional {
+     width: 78px;
+ }
+ #interest {
+     width: 90px;
+ }
+ #population {
+     width: 90px;
+ }
+ #profits {
+     width: 80px;
+ }
+ #programming {
+     width: 90px;
+ }
+ .data{
+      margin-bottom: 10px;
+ }

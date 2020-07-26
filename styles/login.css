@@ -1,0 +1,150 @@
+body{
+     box-sizing: border-box;
+     font-size: 16px;
+     font-family: 'Roboto Mono', monospace; 
+ }
+ #container {
+     width:40%;
+     margin:  50px auto;
+     border-radius: 8px;
+     box-shadow: 0 0 12px rgba(100,100,100,0.5);
+     padding: 40px;
+ }
+ .first-container h1 {
+      text-align: center;
+      margin-top: 5px;
+      margin-bottom: 30px;
+      color: rgba(10,140,85,1);
+ }
+ .img-container img {
+     display: block;
+     margin : 0 auto;
+     width: 100px;
+ }
+ .body {
+      padding: 2%;
+      display: flex;
+      flex-direction: column;
+      
+ }
+ .body a{
+     
+     font-size: 0.8rem;
+     margin: 10px auto;
+ }
+ .label {
+      display: block;
+      font-size : 1rem;
+      color : rgba(10,140,85,1);
+      margin: 10px 0;
+ }
+ .input-container {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      margin: 10px auto;
+
+ }
+ .form-input {
+      border : 1px solid rgba(10,140,85,1);
+      padding: 10px 20px;
+      outline: none;
+      font-size : 0.8rem;
+      font-family: inherit;
+      font-weight: 400;
+      color: rgba(10,140,85,1);
+ }
+ .form-input:focus {
+      box-shadow: 0 0 10px -2px rgba(10,140,85,0.7) ;
+ }
+.form-footer {
+     position: relative;
+}
+.form-footer hr {
+     border : none;
+     height: 1px;
+     background-color: rgba(10,140,85,0.7);
+     width: 70%;
+}
+#head-info {
+     font-size: 0.9rem;
+     background-color: white;
+     color :rgba(10,140,85,1);
+     position: absolute;
+     left : 43%;
+     top: -15px;
+     padding : 5px;
+}
+.cta-btn {
+     background-color: rgba(10,140,85,1);
+     padding: 0.8em 1.8em;
+     color: white;
+     border: none;
+     border-radius: 25px;
+     font-size: 0.9rem;
+     font-family: inherit;
+     font-weight: 300;
+     margin: 30px auto;
+     display: block;
+     cursor: pointer;
+     outline: none;
+}
+.sign-up{
+     font-weight: 400;
+}
+::placeholder {
+     color: rgba(10,140,85,0.6);
+     font-style: italic;
+}
+
+
+/* Message css*/
+
+.green{
+     width: 60%;
+     margin: 20px auto 10px auto;
+	background-color: rgba(10,140,85,0.1);
+	color: rgba(10,140,85,1);
+	font-size:0.8rem ;
+	padding: 20px;
+	border: 1px solid rgba(10,140,85,1);
+	border-radius: 8px;
+     text-align: center;
+     animation : drop 1.3s ease;
+}
+.blue {
+     width: 60%;
+     margin: 20px auto 10px auto;
+	background-color: rgba(0, 184, 197, 0.1);
+	color: rgb(2, 151, 161);
+	font-size:0.8rem ;
+	padding: 20px;
+	border: 1px solid rgb(2, 151, 161);
+	border-radius: 8px;
+     text-align: center;
+     animation : drop 1.3s ease;
+}
+.alert {
+     width: 60%;
+     margin: 20px auto 10px auto;
+	background-color: rgba(221, 0, 0, 0.1);
+	color: rgba(221, 0, 0, 1);
+	font-size:0.8rem ;
+	padding: 20px;
+	border: 1px solid rgba(221, 0, 0, 1);
+	border-radius: 8px;
+     text-align: center;
+     animation : drop 1.3s ease;
+}
+
+/*Animation*/
+@keyframes drop{
+     0%{
+       opacity : 0;
+       transform: translateY(-80px);
+     }
+     100%{
+       opacity : 1;
+       transform: translateY(0px);
+     }
+   }

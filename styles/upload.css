@@ -1,0 +1,130 @@
+body{
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace; 
+}
+.container {
+    width:70%;
+    margin:  50px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(100,100,100,0.5);
+    padding: 40px;
+}
+.first-container h1 {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 30px;
+	color: rgba(10,140,85,1);
+}
+.form-container {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.first-col, .second-col {
+	margin: 0;
+	flex: 1;
+	padding: 0 30px 30px 30px;
+	text-align: center;
+
+}	
+.first-col {
+	border-right: 1px solid rgba(10,140,85,0.4 );
+}
+
+.label {
+	display: block;
+	font-size: 1.2rem;
+	margin: 10px 0 ;
+	color: rgba(10,140,85,0.9);
+	font-weight: 500;
+	
+}
+.input-container {
+	margin: 50px 0;
+	
+	width: 100%;
+}
+.form-input {
+	width: 80%;
+	padding: 10px 5px;
+	outline: none;
+	font-family: inherit;
+	font-size: 0.8rem;
+	border: 1.2px solid rgba(122,187,150,1);
+	margin : 20px auto;
+	color: rgba(122,187,150,1);
+	display: block;
+}
+
+
+.cta-btn {
+	width: 100%;
+}
+
+#submit-btn {
+	display: block;
+	margin: 30px auto 0 auto;
+	min-width: 30%;
+	border: none;
+	outline: none;
+	font-size: 1rem;
+	font-family: inherit;
+	padding: 10px 20px;
+	color: white;
+	background-color: rgba(10,140,85,1);
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+
+/*UPLOAD PAGE*/
+
+.alert-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	margin : 0 auto 40px auto;
+}
+.alert-container img{
+	width: 40px;
+	margin: auto 10px;
+}
+.alert-container h2{
+	color:rgba(248, 21, 21,1);
+	font-size: 0.9rem;
+	text-align : center;
+	margin: auto 10px;
+}
+.alert {
+     width: 60%;
+     margin: 10px auto 20px auto;
+	background-color: rgba(221, 0, 0, 0.1);
+	color: rgba(221, 0, 0, 1);
+	font-size:0.8rem;
+	padding: 20px;
+	border: 1px solid rgba(221, 0, 0, 1);
+	border-radius: 8px;
+     text-align: center;
+     animation : drop 1.3s ease;
+}
+.error-container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*Animation*/
+@keyframes drop{
+     0%{
+       opacity : 0;
+       transform: translateY(-80px);
+     }
+     100%{
+       opacity : 1;
+       transform: translateY(0px);
+     }
+   }
+
+

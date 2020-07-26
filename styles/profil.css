@@ -1,0 +1,168 @@
+body{
+     box-sizing: border-box;
+     font-size: 16px;
+     font-family: 'Roboto Mono', monospace; 
+ }
+ .container {
+     width:65%;
+     border : 1px solid rgba(100,100,100,0.4);
+     margin: 50px auto;
+     border-radius: 8px;
+     box-shadow: 0 0 12px 1px rgba(100,100,100,0.3);
+     padding: 50px;
+ }
+
+ .second-container {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: 1fr;
+      
+      grid-gap: 30px;
+  
+    
+
+     
+ }
+ .main, .profil { 
+     text-align: center;
+     border-radius: 8px;
+     box-shadow: 0 0 10px -1px rgba(100,100,100,0.5);
+     padding: 20px;
+ }
+ .main {
+      padding: 30px;
+      color: rgb(17, 55, 99); 
+ }
+ .first-part {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+ }
+ .second-part {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+}
+ .item {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-column-gap: 20%;
+     width: 90%;
+     font-size: 0.7rem;
+     justify-content: space-between;
+     align-items: center;
+     border: 2px solid rgba(17, 55, 99,0.7);
+     padding: 10px 20px;
+     border-radius: 13px;
+     margin: 0 0 20px 0 ;
+ }
+ 
+ .number-page1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: rgb(17, 55, 99);
+ }
+ .profil{
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      align-items:center ;
+      align-self: flex-start;
+
+ }
+ 
+ .img{
+     width: 90px;
+     height: 90px;
+     object-fit: cover;
+     border: 1px solid rgba(100,100,100,0.5);
+     border-radius: 50% ;
+     margin: 0 auto 20px auto;
+     border: 3px solid rgba(220,220,220,1);
+
+     padding: 5px;
+}
+ .info-bar {
+      border-bottom: 1px solid rgb(17, 55, 99);
+      padding: 6px;
+      margin: 8px 0;
+      width: 70%;
+      font-size: 0.8rem ;
+ }
+ .cta {
+      outline: none;
+      border : none;
+      font-size: 0.8rem;
+      font-family: inherit;
+      
+      padding: 15px 20px;
+      margin: 8px 0;
+      border-radius: 30px;
+      color: white;
+      text-align: center;
+      cursor: pointer;
+ }
+ .btns{
+      margin-top: 10px;
+      
+ }
+ .logout {
+      background-color: rgba(223, 51, 51,0.9);
+ }
+ 
+
+ /* ****************Admin profil**************** */
+ .main h1{
+    font-size: 1.2rem;
+    font-weight: 400;
+   
+}
+.main {
+     padding: 20px;
+     color: rgb(17, 55, 99); 
+}
+.consulter{
+     background-color: rgba(10,140,85,0.9);
+     width: 60%;
+     font-size: 0.9rem;
+     font-weight: 400;
+     padding: 15px 25px;
+}
+
+.infos-container {
+     width: 100%;
+}
+.infos-container p{
+     display: inline-block;
+}
+.p-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-bottom: 20px;
+}
+.p-container p {
+     margin-bottom: 0;
+     font-weight: 700;
+}
+.number{
+     display:block;
+     font-size: 3.5rem;
+     margin-top:10px; 
+     font-weight:700;
+
+}
+.hr {
+     width: 60%;
+}
+.hr hr {
+     border-top: 2px solid rgba(17, 55, 99,0.7);
+}
+.info-admin {
+     font-size: 0.9rem;
+}
+a{
+     text-decoration: none;
+}

@@ -1,0 +1,113 @@
+.message-container{
+     width: 70%;
+	font-size:0.9rem ;
+     padding: 20px;
+     margin-top: 20px;
+	border-radius: 8px;
+     text-align: center;
+}
+/* en cours de traitement style*/
+.e_d_t {
+     background-color: rgba(0, 184, 197, 0.1);
+	color: rgb(2, 151, 161);
+	border: 1px solid rgb(2, 151, 161);
+}
+/* refus style*/
+.refused p span {
+     display: block;
+     width: 80%;
+     margin: 0 auto;
+     text-align: left;
+}
+.refused p span a {
+     font-size: 0.8rem;
+}
+.refused {
+	background-color: rgba(221, 0, 0, 0.1);
+	color: rgba(221, 0, 0, 1);
+	border: 1px solid rgba(221, 0, 0, 1);
+}
+/* Accepté style*/
+.exam-info {
+     width: 100%;
+     margin-top: 15px;
+     display:flex;
+     justify-content: space-around;
+     align-items: stretch;
+}
+.box {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     border: 2px solid rgba(17, 55, 99,0.7);
+     padding: 10px;
+     border-radius: 13px;
+     width: 20%;
+     text-align: center;
+     transition: all 0.3s ease-out;
+}
+.box:hover {
+     background-color:rgba(17, 55, 99,0.2) ;
+     transform: scale(1.03,1.03);
+}
+.box img {
+     display: block;
+     margin: 5px auto;
+
+}
+#place {
+     width: 25px;
+}
+#calendar {
+     width: 35px;
+}
+#aide {
+     width: 35px;
+}
+.box p {
+     margin: 10px auto 6px auto;
+     font-size: 0.9rem;
+}
+.title {
+     display: block;
+     font-size: 1rem;
+     font-weight: 700;
+}
+#second-part {
+     display: flex;
+     flex-direction: column;
+     width: 100%; 
+}
+
+
+
+#state {
+     outline: none;
+     border: none;
+     padding: 10px 20px;
+     background-color: rgba(170,255,190,1);
+     border-radius: 10px;
+     font-size: 0.8rem;
+     color: inherit;
+     font-family: inherit;
+}
+#refus {
+     outline: none;
+     border: none;
+     padding: 10px 20px;
+     background-color: rgba(255,182,170,1);
+     border-radius: 10px;
+     font-size: 0.8rem;
+     color: rgba(221, 0, 0, 1);
+     font-family: inherit;
+}
+#notYet{
+     outline: none;
+     border: none;
+     padding: 10px 20px;
+     background-color: rgba(170,255,230,1);
+     border-radius: 10px;
+     font-size: 0.8rem;
+     color:inherit;
+     font-family: inherit;
+}
